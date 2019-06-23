@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
+
+# Examples generated files
+example/simpleDemo/simpleDemo
+example/stocks/stocks
+
+# sometimes when flutter crashes it creates log files
+*.log
+
+# other crashes report:
+core.*
+
+.vscode
